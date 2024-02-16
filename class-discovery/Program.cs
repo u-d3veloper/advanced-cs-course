@@ -1,2 +1,2 @@
-﻿Etudiant etudiant = new Etudiant("Haragoua","Nick");
-Console.WriteLine(etudiant.Nom);
+﻿Promotion promo2026 = new Promotion("Promotion cognitique",2026, new List<Etudiant>{new Etudiant("Maxime","Etcheverry"),new Etudiant("Titouan","Auterioux")},new List<Enseignant>{new Enseignant("Dupont","Mathématiques"),new Enseignant("Dupond","Histoire")});
+Console.WriteLine(promo2026.ToString());
